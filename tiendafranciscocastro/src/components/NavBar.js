@@ -16,18 +16,20 @@
 
 import React from 'react'
 import CartWidget from './CartWidget'
+import logo from '../assets/images/logo.png'
 
 const NavBar = () => {
   return (
     <header>
       <nav>
-        <h1>OKNO Esmaltes</h1>
+      <div className="Logo">
+          <img src={logo} alt="" />
+        </div>
         <ul>
           <li>Quienes somos</li>
           <li>Como contactarnos</li>
-          <li>Dejate tentar</li>
+          <li>Nuestras propuestas</li>
           <CartWidget/>
-          <li>Donde encontrarnos</li>
         </ul>
       </nav>
     </header>

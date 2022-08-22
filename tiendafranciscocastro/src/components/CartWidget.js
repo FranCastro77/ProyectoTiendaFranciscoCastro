@@ -1,10 +1,13 @@
 import React from 'react'
+import Cartpicture from "../assets/images/CartWidget.png" 
 
 const CartWidget = () => {
   return (
-        <img src="tiendafranciscocastro/src/assets/images/CartWidget.png"></img>
-
-  )
-}
+        <div className="CartWidgetContainer">
+          <img src={Cartpicture} alt="" />
+        </div>
+        
+  );
+};
 
 export default CartWidget
