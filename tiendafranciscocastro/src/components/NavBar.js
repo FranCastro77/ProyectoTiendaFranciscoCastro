@@ -15,13 +15,22 @@
 
 
 import React from 'react'
+import CartWidget from './CartWidget'
 
 const NavBar = () => {
   return (
-    <div>
-      <li>Quienes somos</li>
-      <li>Quienes somos</li>
-    </div>
+    <header>
+      <nav>
+        <h1>OKNO Esmaltes</h1>
+        <ul>
+          <li>Quienes somos</li>
+          <li>Como contactarnos</li>
+          <li>Dejate tentar</li>
+          <CartWidget/>
+          <li>Donde encontrarnos</li>
+        </ul>
+      </nav>
+    </header>
   )
 }
 
