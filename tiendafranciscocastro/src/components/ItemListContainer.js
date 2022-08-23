@@ -1,6 +1,6 @@
 import React from 'react'
 
-const ItemListContainer = ({product, description, cantidad, children}) => {
+const ItemListContainer = ({product, description, cantidad}) => {
   return (
 
     <main>
