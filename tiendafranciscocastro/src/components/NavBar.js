@@ -1,19 +1,3 @@
-// import React from 'react'
-
-// const Saludos = ({name, lastname, children}) => {
-//   return (
-//     <>
-//      <h1>Saludos a {name} {lastname}</h1>
-//      {children}
-//     </>
-   
-//   )
-// }
-
-//export default Saludos//
-
-
-
 import React from 'react'
 import CartWidget from './CartWidget'
 import logo from '../assets/images/logo.png'
@@ -28,7 +12,10 @@ const NavBar = () => {
         <ul>
           <li>Quienes somos</li>
           <li>Como contactarnos</li>
-          <li>Nuestras propuestas</li>
+          <li>
+            <a href = "http://localhost:3000/#catalogo" > Nuestras propuestas </a>
+            </li>
+            
           <CartWidget/>
         </ul>
       </nav>
